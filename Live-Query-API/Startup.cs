@@ -13,9 +13,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using QnA_API.Models;
+using Live_Query_API.Models;
 
-namespace QnA_API
+namespace Live_Query_API
 {
     public class Startup
     {
@@ -33,7 +33,7 @@ namespace QnA_API
         {
             services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc(name: "v1", new OpenApiInfo { Title = "QnA API", Version = "v1" });
+                options.SwaggerDoc(name: "v1", new OpenApiInfo { Title = "Live-Query-API", Version = "v1" });
             });
 
             services.AddCors(options =>

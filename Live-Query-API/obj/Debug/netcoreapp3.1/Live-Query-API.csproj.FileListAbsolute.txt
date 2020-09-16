@@ -55,3 +55,12 @@ C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug
 C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.csproj.CoreCompileInputs.cache
 C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug\netcoreapp3.1\Live-Query-API.deps.json
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug\netcoreapp3.1\Live-Query-API.runtimeconfig.json
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug\netcoreapp3.1\Live-Query-API.runtimeconfig.dev.json
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug\netcoreapp3.1\Live-Query-API.dll
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug\netcoreapp3.1\Live-Query-API.pdb
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.dll
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.pdb
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.genruntimeconfig.cache

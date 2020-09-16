@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace QnA_API.Models
+namespace Live_Query_API.Models
 {
     public class AppDatabase : DbContext
     {

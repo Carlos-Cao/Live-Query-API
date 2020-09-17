@@ -157,3 +157,4 @@ C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug
 C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.csproj.CoreCompileInputs.cache
 C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\obj\Debug\netcoreapp3.1\Live-Query-API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\carlo\OneDrive\Desktop\Projects\Live-Query-API\Live-Query-API\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\livequeryapi - Web Deploy\profile.arm.json

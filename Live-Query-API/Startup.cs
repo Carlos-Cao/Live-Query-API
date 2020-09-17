@@ -26,7 +26,8 @@ namespace Live_Query_API
 
         public IConfiguration Configuration { get; }
 
-        private readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -38,12 +39,16 @@ namespace Live_Query_API
 
             services.AddCors(options =>
             {
-                options.AddPolicy(MyAllowSpecificOrigins, builder =>
-                {
-                    builder.WithOrigins("http://localhost:3000", "https://questionanswers.azurewebsites.net/")
-                    .AllowAnyHeader()
-                    .AllowAnyMethod();
-                });
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:3000",
+                                                          "https://livequeryapi.azurewebsites.net/api/Questions/", "http://livequery.azurewebsites.net/", "https://livequery.azurewebsites.net/")
+                                      .AllowAnyHeader()
+                                      .AllowAnyMethod()
+                                      .SetIsOriginAllowed((host) => true)
+                                      .AllowCredentials();
+                                  });
             });
 
             services.AddDbContext<AppDatabase>(options =>
@@ -52,6 +57,11 @@ namespace Live_Query_API
             });
 
             services.AddControllers();
+        }
+
+        private object SetIsOriginAllowed(Func<object, bool> p)
+        {
+            throw new NotImplementedException();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -2,7 +2,6 @@
 
 <p>REST API for Live Query Web App.</p>
 <p>C# web service built using Microsoft ASP.NET Core and documented on Swagger UI.</p>
-<p><b>Link to API:</b> https://livequeryapi.azurewebsites.net</p>
 
 <h2>Documentation</h2>
   
